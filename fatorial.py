@@ -104,7 +104,7 @@ for col in zagueiros.columns:
         zagueiros[col] = zagueiros[col] / zagueiros['90s']
         
 #%% invertendo base
-zagueiros.loc[192, 'desafios_perdidos'] = 0.33
+zagueiros.loc[192, 'desafios_perdidos'] = 0.19
 zagueiros['desafios_perdidos'] = 1/zagueiros['desafios_perdidos']
 #%% padronizando os dados
 # separando variáveis numéricas e não numéricas
