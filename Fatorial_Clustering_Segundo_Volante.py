@@ -75,7 +75,7 @@ colunas_para_remover = [
     'Acerto no Cruzamento %', 'Carregadas Progressivas'
 ]
 
-# Remover as colunas em uma única operação
+# Removendo as colunas em uma única operação
 sv_pca = sv_pca.drop(columns=colunas_para_remover)
 
 #%% Teste de Bartlett
