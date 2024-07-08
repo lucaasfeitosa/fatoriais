@@ -482,7 +482,7 @@ plt.show()
 
 #%% Matriz de dispersão para cada um dos pares de atributos dos dados
 
-
+cluster_paulinho.reset_index('Jogador', inplace=True)
 
 # Definindo uma paleta de cores
 palette = sns.color_palette("husl", len(cluster_paulinho.index))
